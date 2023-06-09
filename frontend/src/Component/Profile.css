@@ -1,0 +1,116 @@
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.profile-info {
+    margin-left: 20px;
+}
+
+.profile-stats {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stat {
+    margin-right: 40px;
+    text-align: center;
+}
+
+.stat-label {
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.post-image {
+    width: 200px;
+    height: auto;
+}
+
+.menuContainer2 {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Set left position to 0 */
+    padding: 30px 15px;
+    margin-top: 20px;
+    /* Adjust margin-top */
+}
+
+.subMenu2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.logo2 {
+    width: 70px;
+    min-width: 40px;
+    margin-right: 40px;
+}
+
+.iconContainer {
+    width: 50px;
+    height: 50px;
+    min-width: 40px;
+    border-radius: 40%;
+    border: 2px solid #717273;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.MuiSvgIcon-root {
+    color: #313233;
+    font-size: 18px;
+}
+
+.iconContainer:hover,
+.iconContainer.active {
+    background: #2e2f30;
+}
+
+.iconContainer:hover .MuiSvgIcon-root,
+.iconContainer.active .MuiSvgIcon-root {
+    background: #feffff;
+}

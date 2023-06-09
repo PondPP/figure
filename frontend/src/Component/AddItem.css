@@ -1,0 +1,77 @@
+.naam{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./image/sunny.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container4 {
+    background-color: white;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 50px 20px;
+    width: 450px;  
+    box-shadow: 1px 1px 10px rgba(0, 0, 0,0.1);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+  
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #feffff;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+input[type="file"] {
+    margin-bottom: 10px;
+}
+  
+.add-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.btn-p {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+  
+.btn-p:hover {
+    background-color: #e5e5e5;
+}
